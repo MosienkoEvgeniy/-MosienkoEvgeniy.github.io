@@ -1,3 +1,9 @@
+body{
+    overflow-x: hidden;
+}
+.bank-mobil{
+	display: none;
+}
 .mfp-bg {
 
     top: 0;
@@ -10461,16 +10467,17 @@ button.accordion__more:hover {
 .cart-layout__price {
 
     color: #c32a3e;
-
-    position: relative
-
+    position: relative;
+    right: 18px;
+    transform: translateY(-70%)
 }
 
 
 
 .cart-layout__price:hover {
+    right: 0;
 
-    height: 50px;
+    height: 46px;
 
     background-color: #c32a3e;
 
@@ -10478,9 +10485,9 @@ button.accordion__more:hover {
 
     color: #fff;
 
-    padding-left: 23px;
+    padding-left: 35px;
 
-    padding-right: 23px;
+    padding-right: 35px;
 
     line-height: 50px
 
@@ -12121,21 +12128,27 @@ form.catalog__controls .selectize-control.single:not(:last-child) {
     .default-sup::before{
       display: none;
     }
-
+	
+	.bank{
+		display: none;
+	}
+	.bank-mobil{
+		display: block;
+	}
     .bank-container{
-      max-width: 316px;
+      max-width: 100%;
     }
     .bank-form{
       padding-bottom: 30px;
     }
     .bank-form::after {
-      height: 683px;
+      height: 98.1%;
       top: 30px;
       right: -20px
     }
 
     .bank-form::before {
-      width: 290px;
+      width: 98%;
       bottom: -20px;
       left: 24px
     }
@@ -12149,10 +12162,16 @@ form.catalog__controls .selectize-control.single:not(:last-child) {
       padding-left: 0;
       display: block; 
       padding-bottom: 15px;
+      text-align: center;
+      font-size: 13px;
       
     }
     .bank-form__header img{
-      left: 40%;
+      left: 50%;
+      -webkit-transform: translateX(-61%);
+      -ms-transform: translateX(-61%);
+      -o-transform: translateX(-61%);
+      transform: translateX(-61%);
     }
     .bank-form__content .input{
       margin-right: 0;
@@ -12161,7 +12180,16 @@ form.catalog__controls .selectize-control.single:not(:last-child) {
       width: 85%;
       margin-bottom: 15px;
     }
-      
+
+    .form-discount{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .form-content__checkbox label{
+        padding-left: 0;
+    }
 }
 
 

@@ -72,9 +72,7 @@
 	text-transform: uppercase;
 	padding: 18px 60px;
 	border: 3px solid #c32a3e;
-	letter-spacing: 1.2px
-	-webkit-transition: all 0.2s;
-	-o-transition: all 0.2s;
+	letter-spacing: 1.2px;
 	transition: all 0.2s;
 }
 
@@ -93,7 +91,7 @@
 	padding: 17px;
 	font-family: FiraSans;
 	font-weight: 300;
-	color: #222
+	color: #222;
 }
 
 .form-content__checkbox label {
@@ -106,7 +104,7 @@
 	padding-left: 40px;
 	margin-bottom: 15px;
 	cursor: pointer;
-	position: relative
+	position: relative;
 }
 
 .form-content__checkbox label::before {
@@ -117,18 +115,17 @@
 	background-color: #fff;
 	width: 20px;
 	height: 20px;
-	border: 1px solid #e1e1e1
+	border: 1px solid #e1e1e1;
 }
 
 .form-content__checkbox #Checkbox {
-	display: none
+	display: none;
 }
 
 .form-content__checkbox input[type="checkbox"]:checked+label::before {
 	content: "";
-	background-size: 50%;
-	background-color: #fff;
-	background-image: url(../img/square-shape-shadow.svg)
+	background-size: 100%;
+	background-image: url(../img/square-shape-shadow.svg) ;
 }
 /* Форма "Партнеры Сбербанк" */
 .bank-container {
@@ -146,7 +143,7 @@
 	max-width: 1310px;
 	padding-left: 50px;
 	padding-bottom: 60px;
-	position: relative
+	position: relative;
 }
 
 .bank-form::after {
@@ -156,7 +153,7 @@
 	height: 307px;
 	background-color: #c32a3e;
 	top: 30px;
-	right: -20px
+	right: -20px;
 }
 
 .bank-form::before {
@@ -166,7 +163,7 @@
 	height: 20px;
 	background-color: #c32a3e;
 	bottom: -20px;
-	left: 24px
+	left: 24px;
 }
 
 .bank-form__content span {
@@ -177,7 +174,7 @@
 	font-weight: 300;
 	margin-left: 15px;
 	position: relative;
-	letter-spacing: 1px
+	letter-spacing: 1px;
 }
 
 .bank-form__content span::before {
@@ -185,7 +182,7 @@
 	position: absolute;
 	top: 0;
 	left: -10px;
-	font-size: 15px
+	font-size: 15px;
 }
 
 .bank-form__content .input {
@@ -197,7 +194,7 @@
 	color: #222;
 	font-size: 14px;
 	font-weight: 300;
-	font-family: "FiraSans"
+	font-family: "FiraSans";
 }
 
 .bank-form__content .btn {
@@ -208,23 +205,23 @@
 	font-size: 15px;
 	text-transform: uppercase;
 	padding: 15px 60px;
-	border: 3px solid #c32a3e
+	border: 3px solid #c32a3e;
 }
 
 .bank-form__content .btn:hover {
 	border: 3px solid #c32a3e;
 	background-color: #c32a3e;
-	color: #fff
+	color: #fff;
 }
 
 .bank-form__header {
-	position: relative
+	position: relative;
 }
 
 .bank-form__header img {
 	position: absolute;
 	top: 70px;
-	right: 90px
+	right: 90px;
 }
 
 .bank-form__header .title {
@@ -234,7 +231,7 @@
 	font-weight: 700;
 	line-height: 1.3;
 	padding-top: 50px;
-	text-transform: uppercase
+	text-transform: uppercase;
 }
 
 .bank-form__header .suptitle {
@@ -244,40 +241,41 @@
 	font-weight: 300;
 	line-height: 1.9;
 	padding-top: 20px;
-	padding-bottom: 50px
+	padding-bottom: 50px;
 }
 
 .bank-form__header .suptitle span {
 	color: #c92637;
-	font-weight: 700
+	font-weight: 700;
 }
-
+/*Кнопка "Хочу скидку"*/
 .TTU {
-	text-transform: uppercase
+	text-transform: uppercase;
 }
 
 .left {
 	position: absolute;
-	top: 22px;
-	left: 25px;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 18px;
 	font-size: 12px;
 	color: #555;
 	font-family: "FiraSans";
 	font-weight: 700;
 	line-height: 1.5;
 	text-decoration: none;
-	color: #000
+	color: #000;
 }
 
 .left:hover {
-	height: 50px;
+	left: 0;
+	height: 46px;
 	background-color: #555;
-	-webkit-transform: translateY(-25px);
-	transform: translateY(-25px);
+	transform: translateY(-22px);
 	color: #fff;
-	padding-left: 23px;
-	padding-right: 23px;
-	line-height: 50px
+	padding-left: 64px;
+	padding-right: 64px;
+	line-height: 50px;
 }
 
 .default {
@@ -285,7 +283,7 @@
 	background-color: #f5f5f5;
 	margin: 0 auto;
 	max-width: 450px;
-	padding-bottom: 50px
+	padding-bottom: 50px;
 }
 
 .default-sup {
@@ -298,7 +296,7 @@
 	line-height: 1.7;
 	position: relative;
 	padding-bottom: 25px;
-	letter-spacing: 1px
+	letter-spacing: 1px;
 }
 
 .default-sup::before {
@@ -307,7 +305,7 @@
 	color: #c32a3e;
 	font-size: 14px;
 	top: 0;
-	left: 90px
+	left: 90px;
 }
 
 .default-input {
@@ -323,7 +321,7 @@
 	font-size: 14px;
 	font-family: "FiraSans";
 	font-weight: 300;
-	line-height: 18px
+	line-height: 18px;
 }
 
 .heading {
@@ -336,7 +334,7 @@
 	line-height: 24px;
 	text-align: center;
 	padding-bottom: 20px;
-	letter-spacing: .45px
+	letter-spacing: .45px;
 }
 
 .descripton {
@@ -347,5 +345,5 @@
 	line-height: 2;
 	text-align: center;
 	padding-bottom: 20px;
-	letter-spacing: .35px
+	letter-spacing: .35px;
 }
