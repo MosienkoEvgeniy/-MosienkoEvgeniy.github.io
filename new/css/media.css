@@ -1,0 +1,1563 @@
+/*==========  Desktop First Method  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+  .desctop_rate {
+    background: #f7f9fb url("../img/bg_know.png") no-repeat top center !important; }
+    .desctop_rate .header-desc .nav {
+      display: none; }
+    .desctop_rate .header-desc .mobil-btn {
+      margin-top: 8px;
+      display: block !important; }
+      .desctop_rate .header-desc .mobil-btn .icon .fa-bars {
+        font-size: 35px;
+        color: #586a8c; }
+    .desctop_rate .header-desc .mobil-menu {
+      display: block;
+      padding-left: 0;
+      text-align: center;
+      padding-bottom: 10px;
+      margin-bottom: 0;
+      width: 250px;
+      margin-top: 10px; }
+      .desctop_rate .header-desc .mobil-menu .mobil-nav {
+        padding-left: 0; }
+        .desctop_rate .header-desc .mobil-menu .mobil-nav .navpoint {
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop_rate .header-desc .mobil-menu .mobil-nav .navpoint a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop_rate .header-desc .mobil-menu .mobil-nav .navpoint a:hover {
+            text-decoration: none; }
+      .desctop_rate .header-desc .mobil-menu .mobil-registration {
+        display: none; }
+        .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-enter {
+          font-size: 16px;
+          color: #8860fb;
+          text-decoration: underline;
+          display: block;
+          margin-bottom: 10px; }
+        .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button {
+          border: none;
+          border-radius: 6px;
+          width: 170px;
+          height: 44px;
+          background-color: #8860fb;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          margin-left: 25px; }
+          .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button a {
+            color: #ffffff; }
+          .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+            text-decoration: none; }
+        .desctop_rate .header-desc .mobil-menu .mobil-registration .reg-button:focus {
+          outline: none; }
+      .desctop_rate .header-desc .mobil-menu .mobil-profile {
+        display: none;
+        flex-direction: column; }
+        .desctop_rate .header-desc .mobil-menu .mobil-profile img {
+          width: 43px;
+          height: 43px;
+          display: block;
+          margin: auto; }
+        .desctop_rate .header-desc .mobil-menu .mobil-profile p {
+          font-family: "Montserrat", sans-serif;
+          font-weight: 400;
+          color: #000;
+          line-height: 1.2;
+          font-size: 14px;
+          margin-left: 5px;
+          margin-top: 5px; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile p a {
+            font-weight: 600;
+            text-decoration: underline;
+            color: #000; }
+        .desctop_rate .header-desc .mobil-menu .mobil-profile .mobil-exit {
+          border: none;
+          border-radius: 6px;
+          width: 80px;
+          height: 36px;
+          background-color: #a28dfd;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          margin: auto; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+            color: #fff; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+            text-decoration: none; }
+        .desctop_rate .header-desc .mobil-menu .mobil-profile .exit:focus {
+          outline: none; }
+    .desctop_rate .header-desc .checks-wrap {
+      width: 80%; }
+      .desctop_rate .header-desc .checks-wrap .checks .number {
+        margin-left: 16px; }
+    .desctop_rate .header-desc .registration .enter {
+      color: #8860fb; }
+    .desctop_rate .header-desc .registration .reg-button {
+      box-shadow: 0px 8px 18px 0px rgba(39, 34, 45, 0.14); }
+    .desctop_rate .header-desc .profile p {
+      margin-left: 20px;
+      color: #3e5671; }
+      .desctop_rate .header-desc .profile p a {
+        color: #3e5671; }
+    .desctop_rate .header-desc .profile .exit {
+      margin-left: 20px; }
+    .desctop_rate .rate .rate-link {
+      margin-bottom: 20px; }
+
+  .desctop_know {
+    background: #f7f9fb url("../img/bg_know.png") no-repeat top center !important; }
+    .desctop_know .header-desc .nav {
+      display: none; }
+    .desctop_know .header-desc .mobil-btn {
+      margin-top: 8px;
+      display: block !important; }
+      .desctop_know .header-desc .mobil-btn .icon .fa-bars {
+        font-size: 35px;
+        color: #586a8c; }
+    .desctop_know .header-desc .mobil-menu {
+      display: block;
+      padding-left: 0;
+      text-align: center;
+      padding-bottom: 10px;
+      margin-bottom: 0;
+      width: 250px;
+      margin-top: 10px; }
+      .desctop_know .header-desc .mobil-menu .mobil-nav {
+        padding-left: 0; }
+        .desctop_know .header-desc .mobil-menu .mobil-nav .navpoint {
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop_know .header-desc .mobil-menu .mobil-nav .navpoint a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop_know .header-desc .mobil-menu .mobil-nav .navpoint a:hover {
+            text-decoration: none; }
+      .desctop_know .header-desc .mobil-menu .mobil-registration {
+        display: none; }
+        .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-enter {
+          font-size: 16px;
+          color: #8860fb;
+          text-decoration: underline;
+          display: block;
+          margin-bottom: 10px; }
+        .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button {
+          border: none;
+          border-radius: 6px;
+          width: 170px;
+          height: 44px;
+          background-color: #8860fb;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          margin-left: 25px; }
+          .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button a {
+            color: #ffffff; }
+          .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+            text-decoration: none; }
+        .desctop_know .header-desc .mobil-menu .mobil-registration .reg-button:focus {
+          outline: none; }
+      .desctop_know .header-desc .mobil-menu .mobil-profile {
+        display: none;
+        flex-direction: column; }
+        .desctop_know .header-desc .mobil-menu .mobil-profile img {
+          width: 43px;
+          height: 43px;
+          display: block;
+          margin: auto; }
+        .desctop_know .header-desc .mobil-menu .mobil-profile p {
+          font-family: "Montserrat", sans-serif;
+          font-weight: 400;
+          color: #000;
+          line-height: 1.2;
+          font-size: 14px;
+          margin-left: 5px;
+          margin-top: 5px; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile p a {
+            font-weight: 600;
+            text-decoration: underline;
+            color: #000; }
+        .desctop_know .header-desc .mobil-menu .mobil-profile .mobil-exit {
+          border: none;
+          border-radius: 6px;
+          width: 80px;
+          height: 36px;
+          background-color: #a28dfd;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          margin: auto; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+            color: #fff; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+            text-decoration: none; }
+        .desctop_know .header-desc .mobil-menu .mobil-profile .exit:focus {
+          outline: none; }
+    .desctop_know .header-desc .checks-wrap {
+      width: 80%; }
+      .desctop_know .header-desc .checks-wrap .checks .number {
+        margin-left: 16px; }
+    .desctop_know .header-desc .registration .enter {
+      color: #8860fb; }
+    .desctop_know .header-desc .registration .reg-button {
+      box-shadow: 0px 8px 18px 0px rgba(39, 34, 45, 0.14); }
+    .desctop_know .header-desc .profile p {
+      margin-left: 20px;
+      color: #3e5671; }
+      .desctop_know .header-desc .profile p a {
+        color: #3e5671; }
+    .desctop_know .header-desc .profile .exit {
+      margin-left: 20px; }
+    .desctop_know .know .search .search-img {
+      left: 11.5%; }
+    .desctop_know .know .know-card .hidden-btn {
+      flex-basis: 25%; }
+
+  .desctop_function {
+    background: #f7f9fb url("../img/bg_f.png") no-repeat top center !important; }
+    .desctop_function .header-desc .nav {
+      display: none; }
+    .desctop_function .header-desc .mobil-btn {
+      margin-top: 8px;
+      display: block !important; }
+      .desctop_function .header-desc .mobil-btn .icon .fa-bars {
+        font-size: 35px;
+        color: #586a8c; }
+    .desctop_function .header-desc .mobil-menu {
+      display: block;
+      padding-left: 0;
+      text-align: center;
+      padding-bottom: 10px;
+      margin-bottom: 0;
+      width: 250px;
+      margin-top: 10px; }
+      .desctop_function .header-desc .mobil-menu .mobil-nav {
+        padding-left: 0; }
+        .desctop_function .header-desc .mobil-menu .mobil-nav .navpoint {
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop_function .header-desc .mobil-menu .mobil-nav .navpoint a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop_function .header-desc .mobil-menu .mobil-nav .navpoint a:hover {
+            text-decoration: none; }
+      .desctop_function .header-desc .mobil-menu .mobil-registration {
+        display: none; }
+        .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-enter {
+          font-size: 16px;
+          color: #8860fb;
+          text-decoration: underline;
+          display: block;
+          margin-bottom: 10px; }
+        .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button {
+          border: none;
+          border-radius: 6px;
+          width: 170px;
+          height: 44px;
+          background-color: #8860fb;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          margin-left: 25px; }
+          .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button a {
+            color: #ffffff; }
+          .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+            text-decoration: none; }
+        .desctop_function .header-desc .mobil-menu .mobil-registration .reg-button:focus {
+          outline: none; }
+      .desctop_function .header-desc .mobil-menu .mobil-profile {
+        display: none;
+        flex-direction: column; }
+        .desctop_function .header-desc .mobil-menu .mobil-profile img {
+          width: 43px;
+          height: 43px;
+          display: block;
+          margin: auto; }
+        .desctop_function .header-desc .mobil-menu .mobil-profile p {
+          font-family: "Montserrat", sans-serif;
+          font-weight: 400;
+          color: #000;
+          line-height: 1.2;
+          font-size: 14px;
+          margin-left: 5px;
+          margin-top: 5px; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile p a {
+            font-weight: 600;
+            text-decoration: underline;
+            color: #000; }
+        .desctop_function .header-desc .mobil-menu .mobil-profile .mobil-exit {
+          border: none;
+          border-radius: 6px;
+          width: 80px;
+          height: 36px;
+          background-color: #a28dfd;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          margin: auto; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+            color: #fff; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+            text-decoration: none; }
+        .desctop_function .header-desc .mobil-menu .mobil-profile .exit:focus {
+          outline: none; }
+    .desctop_function .header-desc .checks-wrap {
+      width: 80%; }
+      .desctop_function .header-desc .checks-wrap .checks .number {
+        margin-left: 16px; }
+    .desctop_function .header-desc .registration .enter {
+      color: #8860fb; }
+    .desctop_function .header-desc .registration .reg-button {
+      box-shadow: 0px 8px 18px 0px rgba(39, 34, 45, 0.14); }
+    .desctop_function .header-desc .profile p {
+      margin-left: 20px;
+      color: #3e5671; }
+      .desctop_function .header-desc .profile p a {
+        color: #3e5671; }
+    .desctop_function .header-desc .profile .exit {
+      margin-left: 20px; }
+    .desctop_function .can .can-card_form .fl-box .input {
+      width: 220px !important; }
+    .desctop_function .can .can-card_form .fl-box .form_button {
+      width: 220px !important; }
+
+  .desctop {
+    background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -45% right; }
+    .desctop .header-desc {
+      padding-top: 20px; }
+      .desctop .header-desc .nav {
+        display: none; }
+      .desctop .header-desc .mobil-btn {
+        margin-top: 8px;
+        display: block; }
+        .desctop .header-desc .mobil-btn .icon .fa-bars {
+          font-size: 35px;
+          color: #586a8c; }
+      .desctop .header-desc .mobil-menu {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        width: 250px;
+        margin-top: 10px; }
+        .desctop .header-desc .mobil-menu .mobil-nav {
+          padding-left: 0; }
+          .desctop .header-desc .mobil-menu .mobil-nav .navpoint {
+            font-weight: 400;
+            list-style-type: none;
+            margin-top: 10px; }
+            .desctop .header-desc .mobil-menu .mobil-nav .navpoint a {
+              color: #3e5671;
+              font-size: 16px;
+              font-family: "Montserrat", sans-serif;
+              font-weight: 600; }
+            .desctop .header-desc .mobil-menu .mobil-nav .navpoint a:hover {
+              text-decoration: none; }
+        .desctop .header-desc .mobil-menu .mobil-registration {
+          display: none; }
+          .desctop .header-desc .mobil-menu .mobil-registration .mobil-enter {
+            font-size: 16px;
+            color: #8860fb;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 10px; }
+          .desctop .header-desc .mobil-menu .mobil-registration .mobil-button {
+            border: none;
+            border-radius: 6px;
+            width: 170px;
+            height: 44px;
+            background-color: #8860fb;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 25px; }
+            .desctop .header-desc .mobil-menu .mobil-registration .mobil-button a {
+              color: #ffffff; }
+            .desctop .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+              text-decoration: none; }
+          .desctop .header-desc .mobil-menu .mobil-registration .reg-button:focus {
+            outline: none; }
+        .desctop .header-desc .mobil-menu .mobil-profile {
+          display: none;
+          flex-direction: column; }
+          .desctop .header-desc .mobil-menu .mobil-profile img {
+            width: 43px;
+            height: 43px;
+            display: block;
+            margin: auto; }
+          .desctop .header-desc .mobil-menu .mobil-profile p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            color: #000;
+            line-height: 1.2;
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 5px; }
+            .desctop .header-desc .mobil-menu .mobil-profile p a {
+              font-weight: 600;
+              text-decoration: underline;
+              color: #000; }
+          .desctop .header-desc .mobil-menu .mobil-profile .mobil-exit {
+            border: none;
+            border-radius: 6px;
+            width: 80px;
+            height: 36px;
+            background-color: #a28dfd;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            margin: auto; }
+            .desctop .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+              color: #fff; }
+            .desctop .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+              text-decoration: none; }
+          .desctop .header-desc .mobil-menu .mobil-profile .exit:focus {
+            outline: none; }
+      .desctop .header-desc .checks-wrap {
+        width: 80%; }
+        .desctop .header-desc .checks-wrap .checks .number {
+          margin-left: 16px; }
+      .desctop .header-desc .registration .enter {
+        color: #8860fb; }
+      .desctop .header-desc .registration .reg-button {
+        box-shadow: 0px 8px 18px 0px rgba(39, 34, 45, 0.14); }
+      .desctop .header-desc .profile p {
+        margin-left: 20px;
+        color: #3e5671; }
+        .desctop .header-desc .profile p a {
+          color: #3e5671; }
+      .desctop .header-desc .profile .exit {
+        margin-left: 20px; }
+    .desctop .head .main_head {
+      margin-top: 60px; }
+    .desctop .head .first_step {
+      width: 350px;
+      height: auto;
+      margin: auto; }
+      .desctop .head .first_step .load {
+        margin-top: 120px; }
+    .desctop .head .second_step {
+      width: 350px;
+      height: auto;
+      margin: auto; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  .desctop_rate {
+    background: #f7f9fb url("../img/bg_know.png") no-repeat top center; }
+    .desctop_rate .header-desc {
+      padding-top: 20px; }
+      .desctop_rate .header-desc .nav {
+        display: none; }
+      .desctop_rate .header-desc .mobil-btn {
+        margin-top: 8px;
+        display: block !important; }
+        .desctop_rate .header-desc .mobil-btn .icon .fa-bars {
+          font-size: 35px;
+          color: #586a8c; }
+      .desctop_rate .header-desc .mobil-menu {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        width: 250px;
+        margin-top: 10px; }
+        .desctop_rate .header-desc .mobil-menu .mobil-nav {
+          padding-left: 0;
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop_rate .header-desc .mobil-menu .mobil-nav a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop_rate .header-desc .mobil-menu .mobil-nav a:hover {
+            text-decoration: none; }
+        .desctop_rate .header-desc .mobil-menu .mobil-registration {
+          display: block; }
+          .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-enter {
+            font-size: 16px;
+            color: #8860fb;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 10px; }
+          .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button {
+            border: none;
+            border-radius: 6px;
+            width: 170px;
+            height: 44px;
+            background-color: #8860fb;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 25px; }
+            .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button a {
+              color: #ffffff; }
+            .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+              text-decoration: none; }
+          .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button:focus {
+            outline: none; }
+        .desctop_rate .header-desc .mobil-menu .mobil-profile {
+          display: flex;
+          flex-direction: column; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile img {
+            width: 43px;
+            height: 43px;
+            display: block;
+            margin: auto; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            color: #000;
+            line-height: 1.2;
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 5px; }
+            .desctop_rate .header-desc .mobil-menu .mobil-profile p a {
+              font-weight: 600;
+              text-decoration: underline;
+              color: #000; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile .mobil-exit {
+            border: none;
+            border-radius: 6px;
+            width: 80px;
+            height: 36px;
+            background-color: #a28dfd;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            margin: auto; }
+            .desctop_rate .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+              color: #fff; }
+            .desctop_rate .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+              text-decoration: none; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile .exit:focus {
+            outline: none; }
+      .desctop_rate .header-desc .checks-wrap {
+        width: 80%; }
+        .desctop_rate .header-desc .checks-wrap .checks .number {
+          margin-left: 16px; }
+      .desctop_rate .header-desc .registration {
+        display: none !important; }
+      .desctop_rate .header-desc .profile p {
+        margin-left: 20px;
+        color: #3e5671; }
+        .desctop_rate .header-desc .profile p a {
+          color: #3e5671; }
+      .desctop_rate .header-desc .profile .exit {
+        margin-left: 20px; }
+    .desctop_rate .rate .form-box {
+      transform: translateX(14%); }
+
+  .desctop_know {
+    background: #f7f9fb url("../img/bg_know.png") no-repeat top center; }
+    .desctop_know .header-desc {
+      padding-top: 20px; }
+      .desctop_know .header-desc .nav {
+        display: none; }
+      .desctop_know .header-desc .mobil-btn {
+        margin-top: 8px;
+        display: block !important; }
+        .desctop_know .header-desc .mobil-btn .icon .fa-bars {
+          font-size: 35px;
+          color: #586a8c; }
+      .desctop_know .header-desc .mobil-menu {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        width: 250px;
+        margin-top: 10px; }
+        .desctop_know .header-desc .mobil-menu .mobil-nav {
+          padding-left: 0;
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop_know .header-desc .mobil-menu .mobil-nav a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop_know .header-desc .mobil-menu .mobil-nav a:hover {
+            text-decoration: none; }
+        .desctop_know .header-desc .mobil-menu .mobil-registration {
+          display: block; }
+          .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-enter {
+            font-size: 16px;
+            color: #8860fb;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 10px; }
+          .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button {
+            border: none;
+            border-radius: 6px;
+            width: 170px;
+            height: 44px;
+            background-color: #8860fb;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 25px; }
+            .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button a {
+              color: #ffffff; }
+            .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+              text-decoration: none; }
+          .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button:focus {
+            outline: none; }
+        .desctop_know .header-desc .mobil-menu .mobil-profile {
+          display: flex;
+          flex-direction: column; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile img {
+            width: 43px;
+            height: 43px;
+            display: block;
+            margin: auto; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            color: #000;
+            line-height: 1.2;
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 5px; }
+            .desctop_know .header-desc .mobil-menu .mobil-profile p a {
+              font-weight: 600;
+              text-decoration: underline;
+              color: #000; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile .mobil-exit {
+            border: none;
+            border-radius: 6px;
+            width: 80px;
+            height: 36px;
+            background-color: #a28dfd;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            margin: auto; }
+            .desctop_know .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+              color: #fff; }
+            .desctop_know .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+              text-decoration: none; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile .exit:focus {
+            outline: none; }
+      .desctop_know .header-desc .checks-wrap {
+        width: 80%; }
+        .desctop_know .header-desc .checks-wrap .checks .number {
+          margin-left: 16px; }
+      .desctop_know .header-desc .registration {
+        display: none !important; }
+      .desctop_know .header-desc .profile p {
+        margin-left: 20px;
+        color: #3e5671; }
+        .desctop_know .header-desc .profile p a {
+          color: #3e5671; }
+      .desctop_know .header-desc .profile .exit {
+        margin-left: 20px; }
+    .desctop_know .know .search {
+      width: 720px; }
+      .desctop_know .know .search .search-img {
+        left: 3.5%; }
+    .desctop_know .know .know-card {
+      width: 720px; }
+      .desctop_know .know .know-card .hidden-btn {
+        flex-basis: 25%; }
+
+  .desctop_function {
+    background: #f7f9fb url("../img/bg_f.png") no-repeat top center; }
+    .desctop_function .header-desc {
+      padding-top: 20px; }
+      .desctop_function .header-desc .nav {
+        display: none; }
+      .desctop_function .header-desc .mobil-btn {
+        margin-top: 8px;
+        display: block !important; }
+        .desctop_function .header-desc .mobil-btn .icon .fa-bars {
+          font-size: 35px;
+          color: #586a8c; }
+      .desctop_function .header-desc .mobil-menu {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        width: 250px;
+        margin-top: 10px; }
+        .desctop_function .header-desc .mobil-menu .mobil-nav {
+          padding-left: 0;
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop_function .header-desc .mobil-menu .mobil-nav a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop_function .header-desc .mobil-menu .mobil-nav a:hover {
+            text-decoration: none; }
+        .desctop_function .header-desc .mobil-menu .mobil-registration {
+          display: block; }
+          .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-enter {
+            font-size: 16px;
+            color: #8860fb;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 10px; }
+          .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button {
+            border: none;
+            border-radius: 6px;
+            width: 170px;
+            height: 44px;
+            background-color: #8860fb;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 25px; }
+            .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button a {
+              color: #ffffff; }
+            .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+              text-decoration: none; }
+          .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button:focus {
+            outline: none; }
+        .desctop_function .header-desc .mobil-menu .mobil-profile {
+          display: flex;
+          flex-direction: column; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile img {
+            width: 43px;
+            height: 43px;
+            display: block;
+            margin: auto; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            color: #000;
+            line-height: 1.2;
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 5px; }
+            .desctop_function .header-desc .mobil-menu .mobil-profile p a {
+              font-weight: 600;
+              text-decoration: underline;
+              color: #000; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile .mobil-exit {
+            border: none;
+            border-radius: 6px;
+            width: 80px;
+            height: 36px;
+            background-color: #a28dfd;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            margin: auto; }
+            .desctop_function .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+              color: #fff; }
+            .desctop_function .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+              text-decoration: none; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile .exit:focus {
+            outline: none; }
+      .desctop_function .header-desc .checks-wrap {
+        width: 80%; }
+        .desctop_function .header-desc .checks-wrap .checks .number {
+          margin-left: 16px; }
+      .desctop_function .header-desc .registration {
+        display: none !important; }
+      .desctop_function .header-desc .profile p {
+        margin-left: 20px;
+        color: #3e5671; }
+        .desctop_function .header-desc .profile p a {
+          color: #3e5671; }
+      .desctop_function .header-desc .profile .exit {
+        margin-left: 20px; }
+    .desctop_function .can {
+      display: none; }
+    .desctop_function .mobil-can {
+      display: block !important; }
+
+  .desctop {
+    background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -33% right; }
+    .desctop .header-desc {
+      padding-top: 20px; }
+      .desctop .header-desc .nav {
+        display: none; }
+      .desctop .header-desc .mobil-btn {
+        margin-top: 8px;
+        display: block; }
+        .desctop .header-desc .mobil-btn .icon .fa-bars {
+          font-size: 35px;
+          color: #586a8c; }
+      .desctop .header-desc .mobil-menu {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        width: 250px;
+        margin-top: 10px; }
+        .desctop .header-desc .mobil-menu .mobil-nav {
+          padding-left: 0;
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop .header-desc .mobil-menu .mobil-nav a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop .header-desc .mobil-menu .mobil-nav a:hover {
+            text-decoration: none; }
+        .desctop .header-desc .mobil-menu .mobil-registration {
+          display: block; }
+          .desctop .header-desc .mobil-menu .mobil-registration .mobil-enter {
+            font-size: 16px;
+            color: #8860fb;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 10px; }
+          .desctop .header-desc .mobil-menu .mobil-registration .mobil-button {
+            border: none;
+            border-radius: 6px;
+            width: 170px;
+            height: 44px;
+            background-color: #8860fb;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 25px; }
+            .desctop .header-desc .mobil-menu .mobil-registration .mobil-button a {
+              color: #ffffff; }
+            .desctop .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+              text-decoration: none; }
+          .desctop .header-desc .mobil-menu .mobil-registration .mobil-button:focus {
+            outline: none; }
+        .desctop .header-desc .mobil-menu .mobil-profile {
+          display: flex;
+          flex-direction: column; }
+          .desctop .header-desc .mobil-menu .mobil-profile img {
+            width: 43px;
+            height: 43px;
+            display: block;
+            margin: auto; }
+          .desctop .header-desc .mobil-menu .mobil-profile p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            color: #000;
+            line-height: 1.2;
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 5px; }
+            .desctop .header-desc .mobil-menu .mobil-profile p a {
+              font-weight: 600;
+              text-decoration: underline;
+              color: #000; }
+          .desctop .header-desc .mobil-menu .mobil-profile .mobil-exit {
+            border: none;
+            border-radius: 6px;
+            width: 80px;
+            height: 36px;
+            background-color: #a28dfd;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            margin: auto; }
+            .desctop .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+              color: #fff; }
+            .desctop .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+              text-decoration: none; }
+          .desctop .header-desc .mobil-menu .mobil-profile .exit:focus {
+            outline: none; }
+      .desctop .header-desc .checks-wrap {
+        width: 80%; }
+        .desctop .header-desc .checks-wrap .checks .number {
+          margin-left: 16px; }
+      .desctop .header-desc .registration {
+        display: none !important; }
+      .desctop .header-desc .profile p {
+        margin-left: 20px;
+        color: #3e5671; }
+        .desctop .header-desc .profile p a {
+          color: #3e5671; }
+      .desctop .header-desc .profile .exit {
+        margin-left: 20px; }
+    .desctop .head .main_head {
+      margin-top: 60px; }
+    .desctop .head .main_form {
+      margin-bottom: 40px; }
+    .desctop .head .first_step {
+      width: 350px;
+      height: auto;
+      margin: auto; }
+      .desctop .head .first_step .load {
+        margin-top: 120px; }
+    .desctop .head .second_step {
+      width: 350px;
+      height: auto;
+      margin: auto; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .desctop_rate {
+    background: #f7f9fb url("../img/bg_know.png") no-repeat top center; }
+    .desctop_rate .header-desc {
+      padding-top: 20px; }
+      .desctop_rate .header-desc .nav {
+        display: none; }
+      .desctop_rate .header-desc .mobil-btn {
+        margin-top: 8px;
+        display: block !important; }
+        .desctop_rate .header-desc .mobil-btn .icon .fa-bars {
+          font-size: 35px;
+          color: #586a8c; }
+      .desctop_rate .header-desc .mobil-menu {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        width: 250px;
+        margin-top: 10px; }
+        .desctop_rate .header-desc .mobil-menu .mobil-nav {
+          padding-left: 0;
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop_rate .header-desc .mobil-menu .mobil-nav a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop_rate .header-desc .mobil-menu .mobil-nav a:hover {
+            text-decoration: none; }
+        .desctop_rate .header-desc .mobil-menu .mobil-registration {
+          display: block; }
+          .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-enter {
+            font-size: 16px;
+            color: #8860fb;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 10px; }
+          .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button {
+            border: none;
+            border-radius: 6px;
+            width: 170px;
+            height: 44px;
+            background-color: #8860fb;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 25px; }
+            .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button a {
+              color: #ffffff; }
+            .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+              text-decoration: none; }
+          .desctop_rate .header-desc .mobil-menu .mobil-registration .mobil-button:focus {
+            outline: none; }
+        .desctop_rate .header-desc .mobil-menu .mobil-profile {
+          display: flex;
+          flex-direction: column; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile img {
+            width: 43px;
+            height: 43px;
+            display: block;
+            margin: auto; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            color: #000;
+            line-height: 1.2;
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 5px; }
+            .desctop_rate .header-desc .mobil-menu .mobil-profile p a {
+              font-weight: 600;
+              text-decoration: underline;
+              color: #000; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile .mobil-exit {
+            border: none;
+            border-radius: 6px;
+            width: 80px;
+            height: 36px;
+            background-color: #a28dfd;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            margin: auto; }
+            .desctop_rate .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+              color: #fff; }
+            .desctop_rate .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+              text-decoration: none; }
+          .desctop_rate .header-desc .mobil-menu .mobil-profile .exit:focus {
+            outline: none; }
+      .desctop_rate .header-desc .checks-wrap {
+        display: none; }
+        .desctop_rate .header-desc .checks-wrap .checks .number {
+          margin-left: 16px; }
+      .desctop_rate .header-desc .registration {
+        display: none !important; }
+      .desctop_rate .header-desc .profile p {
+        margin-left: 20px;
+        color: #3e5671; }
+        .desctop_rate .header-desc .profile p a {
+          color: #3e5671; }
+      .desctop_rate .header-desc .profile .exit {
+        margin-left: 20px; }
+    .desctop_rate .rate {
+      margin-top: 40px; }
+      .desctop_rate .rate .rate-link {
+        margin: 0 auto;
+        margin-bottom: 20px; }
+      .desctop_rate .rate .form-box {
+        transform: translateX(7%); }
+
+  .desctop_know {
+    background: #f7f9fb url("../img/bg_know.png") no-repeat top center; }
+    .desctop_know .header-desc {
+      padding-top: 20px; }
+      .desctop_know .header-desc .nav {
+        display: none; }
+      .desctop_know .header-desc .mobil-btn {
+        margin-top: 8px;
+        display: block !important; }
+        .desctop_know .header-desc .mobil-btn .icon .fa-bars {
+          font-size: 35px;
+          color: #586a8c; }
+      .desctop_know .header-desc .mobil-menu {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        width: 250px;
+        margin-top: 10px; }
+        .desctop_know .header-desc .mobil-menu .mobil-nav {
+          padding-left: 0;
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop_know .header-desc .mobil-menu .mobil-nav a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop_know .header-desc .mobil-menu .mobil-nav a:hover {
+            text-decoration: none; }
+        .desctop_know .header-desc .mobil-menu .mobil-registration {
+          display: block; }
+          .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-enter {
+            font-size: 16px;
+            color: #8860fb;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 10px; }
+          .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button {
+            border: none;
+            border-radius: 6px;
+            width: 170px;
+            height: 44px;
+            background-color: #8860fb;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 25px; }
+            .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button a {
+              color: #ffffff; }
+            .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+              text-decoration: none; }
+          .desctop_know .header-desc .mobil-menu .mobil-registration .mobil-button:focus {
+            outline: none; }
+        .desctop_know .header-desc .mobil-menu .mobil-profile {
+          display: flex;
+          flex-direction: column; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile img {
+            width: 43px;
+            height: 43px;
+            display: block;
+            margin: auto; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            color: #000;
+            line-height: 1.2;
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 5px; }
+            .desctop_know .header-desc .mobil-menu .mobil-profile p a {
+              font-weight: 600;
+              text-decoration: underline;
+              color: #000; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile .mobil-exit {
+            border: none;
+            border-radius: 6px;
+            width: 80px;
+            height: 36px;
+            background-color: #a28dfd;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            margin: auto; }
+            .desctop_know .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+              color: #fff; }
+            .desctop_know .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+              text-decoration: none; }
+          .desctop_know .header-desc .mobil-menu .mobil-profile .exit:focus {
+            outline: none; }
+      .desctop_know .header-desc .checks-wrap {
+        display: none; }
+        .desctop_know .header-desc .checks-wrap .checks .number {
+          margin-left: 16px; }
+      .desctop_know .header-desc .registration {
+        display: none !important; }
+      .desctop_know .header-desc .profile p {
+        margin-left: 20px;
+        color: #3e5671; }
+        .desctop_know .header-desc .profile p a {
+          color: #3e5671; }
+      .desctop_know .header-desc .profile .exit {
+        margin-left: 20px; }
+    .desctop_know .know .search {
+      width: 520px; }
+      .desctop_know .know .search .search-img {
+        left: 3.5%; }
+    .desctop_know .know .know-card {
+      width: 520px; }
+      .desctop_know .know .know-card .hidden-btn {
+        flex-basis: 33%; }
+    .desctop_know .know .category .item {
+      flex: 1.1; }
+
+  .desctop_function {
+    background: #f7f9fb url("../img/bg_f.png") no-repeat top center; }
+    .desctop_function .header-desc {
+      padding-top: 20px; }
+      .desctop_function .header-desc .nav {
+        display: none; }
+      .desctop_function .header-desc .mobil-btn {
+        margin-top: 8px;
+        display: block; }
+        .desctop_function .header-desc .mobil-btn .icon .fa-bars {
+          font-size: 35px;
+          color: #586a8c; }
+      .desctop_function .header-desc .mobil-menu {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        width: 250px;
+        margin-top: 10px; }
+        .desctop_function .header-desc .mobil-menu .mobil-nav {
+          padding-left: 0;
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop_function .header-desc .mobil-menu .mobil-nav a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop_function .header-desc .mobil-menu .mobil-nav a:hover {
+            text-decoration: none; }
+        .desctop_function .header-desc .mobil-menu .mobil-registration {
+          display: block; }
+          .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-enter {
+            font-size: 16px;
+            color: #8860fb;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 10px; }
+          .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button {
+            border: none;
+            border-radius: 6px;
+            width: 170px;
+            height: 44px;
+            background-color: #8860fb;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 25px; }
+            .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button a {
+              color: #ffffff; }
+            .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+              text-decoration: none; }
+          .desctop_function .header-desc .mobil-menu .mobil-registration .mobil-button:focus {
+            outline: none; }
+        .desctop_function .header-desc .mobil-menu .mobil-profile {
+          display: flex;
+          flex-direction: column; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile img {
+            width: 43px;
+            height: 43px;
+            display: block;
+            margin: auto; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            color: #000;
+            line-height: 1.2;
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 5px; }
+            .desctop_function .header-desc .mobil-menu .mobil-profile p a {
+              font-weight: 600;
+              text-decoration: underline;
+              color: #000; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile .mobil-exit {
+            border: none;
+            border-radius: 6px;
+            width: 80px;
+            height: 36px;
+            background-color: #a28dfd;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            margin: auto; }
+            .desctop_function .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+              color: #fff; }
+            .desctop_function .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+              text-decoration: none; }
+          .desctop_function .header-desc .mobil-menu .mobil-profile .exit:focus {
+            outline: none; }
+      .desctop_function .header-desc .checks-wrap {
+        display: none; }
+        .desctop_function .header-desc .checks-wrap .checks .number {
+          margin-left: 16px; }
+      .desctop_function .header-desc .registration {
+        display: none !important; }
+      .desctop_function .header-desc .profile p {
+        margin-left: 20px;
+        color: #3e5671; }
+        .desctop_function .header-desc .profile p a {
+          color: #3e5671; }
+      .desctop_function .header-desc .profile .exit {
+        margin-left: 20px; }
+    .desctop_function .can {
+      display: none; }
+    .desctop_function .mobil-can {
+      display: block !important; }
+
+  .desctop {
+    background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -40% right; }
+    .desctop .header-desc {
+      padding-top: 20px; }
+      .desctop .header-desc .nav {
+        display: none; }
+      .desctop .header-desc .mobil-btn {
+        margin-top: 8px;
+        display: block; }
+        .desctop .header-desc .mobil-btn .icon .fa-bars {
+          font-size: 35px;
+          color: #586a8c; }
+      .desctop .header-desc .mobil-menu {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        width: 250px;
+        margin-top: 20px; }
+        .desctop .header-desc .mobil-menu .mobil-nav {
+          padding-left: 0;
+          font-weight: 400;
+          list-style-type: none;
+          margin-top: 10px; }
+          .desctop .header-desc .mobil-menu .mobil-nav a {
+            color: #3e5671;
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; }
+          .desctop .header-desc .mobil-menu .mobil-nav a:hover {
+            text-decoration: none; }
+        .desctop .header-desc .mobil-menu .mobil-registration {
+          display: block; }
+          .desctop .header-desc .mobil-menu .mobil-registration .mobil-enter {
+            font-size: 16px;
+            color: #8860fb;
+            text-decoration: underline;
+            display: block;
+            margin-bottom: 10px; }
+          .desctop .header-desc .mobil-menu .mobil-registration .mobil-button {
+            border: none;
+            border-radius: 6px;
+            width: 170px;
+            height: 44px;
+            background-color: #8860fb;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-left: 25px; }
+            .desctop .header-desc .mobil-menu .mobil-registration .mobil-button a {
+              color: #ffffff; }
+            .desctop .header-desc .mobil-menu .mobil-registration .mobil-button a:hover {
+              text-decoration: none; }
+          .desctop .header-desc .mobil-menu .mobil-registration .mobil-button:focus {
+            outline: none; }
+        .desctop .header-desc .mobil-menu .mobil-profile {
+          display: flex;
+          flex-direction: column; }
+          .desctop .header-desc .mobil-menu .mobil-profile img {
+            width: 43px;
+            height: 43px;
+            display: block;
+            margin: auto; }
+          .desctop .header-desc .mobil-menu .mobil-profile p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            color: #000;
+            line-height: 1.2;
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 5px; }
+            .desctop .header-desc .mobil-menu .mobil-profile p a {
+              font-weight: 600;
+              text-decoration: underline;
+              color: #000; }
+          .desctop .header-desc .mobil-menu .mobil-profile .mobil-exit {
+            border: none;
+            border-radius: 6px;
+            width: 80px;
+            height: 36px;
+            background-color: #a28dfd;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            margin: auto; }
+            .desctop .header-desc .mobil-menu .mobil-profile .mobil-exit a {
+              color: #fff; }
+            .desctop .header-desc .mobil-menu .mobil-profile .mobil-exit a:hover {
+              text-decoration: none; }
+          .desctop .header-desc .mobil-menu .mobil-profile .exit:focus {
+            outline: none; }
+      .desctop .header-desc .checks-wrap {
+        display: none; }
+        .desctop .header-desc .checks-wrap .checks .number {
+          margin-left: 16px; }
+      .desctop .header-desc .registration {
+        display: none !important; }
+      .desctop .header-desc .profile p {
+        margin-left: 20px;
+        color: #3e5671; }
+        .desctop .header-desc .profile p a {
+          color: #3e5671; }
+      .desctop .header-desc .profile .exit {
+        margin-left: 20px; }
+    .desctop .head .main_head {
+      margin-top: 60px;
+      font-size: 34px; }
+      .desctop .head .main_head .gradient {
+        font-size: 35px; }
+    .desctop .head .first_step {
+      width: 350px;
+      height: auto;
+      margin: auto; }
+      .desctop .head .first_step .load {
+        margin-top: 120px; }
+    .desctop .head .second_step {
+      width: 350px;
+      height: auto;
+      margin: auto; }
+
+  /*Disable Animation on Mobile Devices */
+  .animated {
+    /*CSS transitions */
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms */
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations */
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  .desctop_rate {
+    background: #f7f9fb url("../img/bg_know.png") no-repeat top center; }
+    .desctop_rate .header-desc {
+      position: relative; }
+      .desctop_rate .header-desc .row {
+        flex-wrap: nowrap;
+        align-items: center; }
+        .desctop_rate .header-desc .row .col-0 {
+          padding: 0; }
+        .desctop_rate .header-desc .row .or-2 {
+          order: 1;
+          padding: 0;
+          padding-right: 10px; }
+          .desctop_rate .header-desc .row .or-2 .mobil-menu {
+            position: absolute;
+            right: 100%;
+            min-width: 320px;
+            max-width: 450px;
+            z-index: 1;
+            background-color: #fff;
+            transform: translateX(12%); }
+        .desctop_rate .header-desc .row .or-3 {
+          padding: 0; }
+    .desctop_rate .rate .payment-box {
+      flex-wrap: wrap; }
+    .desctop_rate .rate .form-box {
+      display: flex;
+      flex-direction: column;
+      margin: 20 auto; }
+      .desctop_rate .rate .form-box .input {
+        margin-top: 0; }
+      .desctop_rate .rate .form-box .form_button {
+        margin-left: 0;
+        width: 272px;
+        order: 1; }
+
+  .desctop_know {
+    background: #f7f9fb url("../img/bg_know.png") no-repeat top center; }
+    .desctop_know .header-desc {
+      position: relative; }
+      .desctop_know .header-desc .row {
+        flex-wrap: nowrap;
+        align-items: center; }
+        .desctop_know .header-desc .row .col-0 {
+          padding: 0; }
+        .desctop_know .header-desc .row .or-2 {
+          order: 1;
+          padding: 0;
+          padding-right: 10px; }
+          .desctop_know .header-desc .row .or-2 .mobil-menu {
+            position: absolute;
+            right: 100%;
+            min-width: 320px;
+            max-width: 450px;
+            z-index: 1;
+            background-color: #fff;
+            transform: translateX(12%); }
+        .desctop_know .header-desc .row .or-3 {
+          padding: 0; }
+    .desctop_know .know {
+      margin-top: 30px; }
+      .desctop_know .know .know_head {
+        font-size: 40px; }
+      .desctop_know .know .search {
+        justify-content: space-between;
+        width: 300px; }
+        .desctop_know .know .search .search-input {
+          width: 300px !important; }
+      .desctop_know .know .category .item {
+        font-size: 9px; }
+      .desctop_know .know .know-card {
+        justify-content: space-between;
+        width: 310px; }
+        .desctop_know .know .know-card .know-item {
+          width: 300px; }
+          .desctop_know .know .know-card .know-item .item-img {
+            width: 300px; }
+        .desctop_know .know .know-card .hidden-btn {
+          flex-basis: 50%;
+          margin: 0 auto; }
+
+  .desctop_function {
+    background: #f7f9fb url("../img/bg_f.png") no-repeat bottom -13% right; }
+    .desctop_function .header-desc {
+      position: relative; }
+      .desctop_function .header-desc .row {
+        flex-wrap: nowrap;
+        align-items: center; }
+        .desctop_function .header-desc .row .col-0 {
+          padding: 0; }
+        .desctop_function .header-desc .row .or-2 {
+          order: 1;
+          padding: 0;
+          padding-right: 10px; }
+          .desctop_function .header-desc .row .or-2 .mobil-menu {
+            position: absolute;
+            right: 100%;
+            min-width: 320px;
+            max-width: 450px;
+            z-index: 1;
+            background-color: #fff;
+            transform: translateX(12%); }
+        .desctop_function .header-desc .row .or-3 {
+          padding: 0; }
+    .desctop_function .need {
+      margin-top: 40px !important; }
+      .desctop_function .need .title {
+        font-size: 34px !important; }
+    .desctop_function .mobil-can {
+      margin-top: 40px !important; }
+      .desctop_function .mobil-can .can-card_form .form {
+        margin-left: 20px !important; }
+
+  .desctop {
+    background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -13% right; }
+    .desctop .header-desc {
+      position: relative; }
+      .desctop .header-desc .row {
+        flex-wrap: nowrap;
+        align-items: center; }
+        .desctop .header-desc .row .col-0 {
+          padding: 0; }
+        .desctop .header-desc .row .or-2 {
+          order: 1;
+          padding: 0;
+          padding-right: 10px; }
+          .desctop .header-desc .row .or-2 .mobil-menu {
+            position: absolute;
+            right: 100%;
+            min-width: 320px;
+            max-width: 450px;
+            z-index: 1;
+            background-color: #fff;
+            transform: translateX(12%); }
+        .desctop .header-desc .row .or-3 {
+          padding: 0; }
+    .desctop .head .main_head {
+      font-size: 20px;
+      margin-top: 40px; }
+      .desctop .head .main_head .gradient {
+        font-size: 20px; }
+    .desctop .head .sub_head {
+      font-size: 16px;
+      margin-top: 25px; }
+    .desctop .head .icon_box {
+      margin-top: 20px; }
+      .desctop .head .icon_box .title {
+        font-size: 14px; }
+      .desctop .head .icon_box .fl-box {
+        flex-wrap: wrap; }
+        .desctop .head .icon_box .fl-box .icon_wrap {
+          margin-right: 45px; }
+        .desctop .head .icon_box .fl-box .fl-1 {
+          margin-right: 60px; }
+    .desctop .head .main_form .fl-box {
+      display: flex;
+      flex-direction: column; }
+      .desctop .head .main_form .fl-box .form_button {
+        order: 1; }
+      .desctop .head .main_form .fl-box .promocod {
+        margin-top: 0; }
+    .desctop .head .col-12 {
+      padding: 0; }
+      .desctop .head .col-12 .first_step {
+        width: 310px;
+        margin: 0 auto; }
+      .desctop .head .col-12 .second_step {
+        width: 310px;
+        margin: 0 auto; } }
+/* Custom, iPhone Retina */
+
+/*# sourceMappingURL=media.css.map */

@@ -25,7 +25,9 @@
 	<link rel="stylesheet" href="libs/animate/animate.css">
 	<link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 
 	<script src="libs/modernizr/modernizr.js"></script>
 
@@ -39,27 +41,50 @@
 
 				<div class="row">
 
-					<div class="col-xl-2">
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-5 or-1">
 						<div class="img-wrap">
-							<a href="index.html"><img src="img/logo_main.png" alt="logo"></a>
+							<a href="index.html"><img class="nav-img" src="img/logo_main.png" alt="logo"></a>
 						</div>
 					</div>
 
-					<div class="col-xl-4">
+					<div class="col-xl-4 col-lg-1 col-md-1 col-sm-3 or-2">
 						<ul class="nav">
 							<li class="navpoint"><a href="function.html">Функции</a></li>
 							<li class="navpoint"><a href="know.html">База знаний</a></li>
 							<li class="navpoint"><a href="rate.html">Тарифы</a></li>
 						</ul>
+						
+						<div class="mobil-btn">
+							<a href="#" class="icon" id="mobil-btn">
+							    <i class="fa fa-bars"></i>
+							  </a>
+						</div>
+						<div class="mobil-menu" style="display: none;">
+							<ul class="mobil-nav">
+								<li class="navpoint"><a href="function.html">Функции</a></li>
+								<li class="navpoint"><a href="know.html">База знаний</a></li>
+								<li class="navpoint"><a href="rate.html">Тарифы</a></li>
+							</ul>
+							<div class="mobil-registration">
+								<a href="#" class="mobil-enter">Войти</a>
+								<button class="mobil-button"><a href="#form" class="popup">Регистрация</a></button>
+							</div>
+							<div class="mobil-profile" style="display: none;">
+							<img src="img/avatarka.png" alt="avatar">
+							<p>Привет,<br><a href="	#">Мистер Твистер</a></p>
+							<button class="mobil-exit"><a href="#">Выйти</a></button>
+
+						</div>
+						</div>
 					</div>
 
-					<div class="col-xl-2">
+					<div class="col-xl-2 col-lg-3 col-md-4 col-sm-1 col-0">
 						<div class="checks-wrap">
 							<p class="checks">Проверок<span class="number">9</span></p>
 						</div>
 					</div>
 
-					<div class="col-xl-1">
+					<div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 or-3">
 						<div class="select-wrap">
 							<select name="lang" id="#">
 								<option value="#">Ru</option>
@@ -69,7 +94,7 @@
 						</div>
 					</div>	
 
-					<div class="col-xl-3">
+					<div class="col-xl-3 col-lg-5 col-md-2 col-0">
 						<div class="registration">
 							<a href="#" class="enter">Войти</a>
 							<button class="reg-button"><a href="#form" class="popup">Регистрация</a></button>
@@ -90,14 +115,14 @@
 		<section class="head">
 			<div class="container">
 				<div class="row">
-					<div class="col-xl-8">
+					<div class="col-xl-8 col-lg-12 col-md-12">
 						<h1 class="main_head"><span class="gradient">проверь изображение</span> <br>	перед публикацией <br>	в соцсетях</h1>
 						<h3 class="sub_head">Увеличь охват в десятки раз</h3>
 
 						<div class="icon_box">
 							<p class="title">Проверка публикации (поста) на запрещенный контент</p>
 							<div class="fl-box">
-								<div class="icon_wrap">
+								<div class="icon_wrap fl-1">
 									<img src="img/18+.svg" alt="18+" class="icon_img">
 									<p class="suptitle">Взрослый<br> контент 18+</p>
 								</div>
@@ -132,7 +157,7 @@
 						</form>
 					</div>
 
-					<div class="col-xl-4">
+					<div class="col-xl-4 col-lg-12 col-md-12 col-12">
 						<div class="first_step">
 							<div class="load">
 								<div class="load_wrap">
@@ -179,15 +204,15 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-xl-2">
+					<div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
 						<img src="img/footer-logo.png" alt="logo">
 					</div>
-					<div class="col-xl-4">
+					<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
 						<p class="footer-title">Сервис для проверки изображений<br>
 						на качественный контент</p>
 						<p class="footer_subtitle">© 2020, ООО «МаВижн»</p>
 					</div>
-					<div class="col-xl-6">
+					<div class="col-xl-6 col-lg-6 col-md-5 col-sm-4">
 						<a href="#" class="conf">Пользовательское соглашение</a><br>
 						<a href="#" class="conf">Обработка персональных данных</a><br>
 						<a href="#" class="conf">Политика возврата</a>

@@ -163,6 +163,10 @@ body {
         font-weight: 600; }
       .desctop .header-desc .nav .navpoint a:hover {
         text-decoration: none; }
+    .desctop .header-desc .mobil-menu {
+      display: none; }
+    .desctop .header-desc .mobil-btn {
+      display: none; }
     .desctop .header-desc .checks-wrap .checks {
       margin-bottom: 0;
       font-family: "Montserrat", sans-serif;
@@ -561,6 +565,8 @@ body {
         font-weight: 600; }
       .desctop_function .header-desc .nav .navpoint a:hover {
         text-decoration: none; }
+    .desctop_function .header-desc .mobil-btn {
+      display: none; }
     .desctop_function .header-desc .checks-wrap .checks {
       margin-bottom: 0;
       font-family: "Montserrat", sans-serif;
@@ -655,7 +661,7 @@ body {
       .desctop_function .header-desc .profile .exit:focus {
         outline: none; }
   .desctop_function .need {
-    margin-top: 150px; }
+    margin-top: 90px; }
     .desctop_function .need .title {
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
@@ -691,24 +697,24 @@ body {
       font-weight: 400;
       color: #0e2042;
       margin-top: 30px; }
-  .desctop_function .can {
+  .desctop_function .can, .desctop_function .mobil-can {
     margin-top: 80px;
     margin-bottom: 200px; }
-    .desctop_function .can .can_title {
+    .desctop_function .can .can_title, .desctop_function .mobil-can .can_title {
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       color: #0e2042;
       font-size: 34px;
       text-align: center;
       margin-bottom: 70px; }
-    .desctop_function .can .can-card {
+    .desctop_function .can .can-card, .desctop_function .mobil-can .can-card {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       margin-bottom: 70px;
       width: 100%;
       height: 170px; }
-      .desctop_function .can .can-card .card_number {
+      .desctop_function .can .can-card .card_number, .desctop_function .mobil-can .can-card .card_number {
         width: 70px;
         height: 70px;
         text-align: center;
@@ -722,14 +728,14 @@ body {
         margin-top: 10px;
         padding-left: 20px;
         padding-right: 20px; }
-      .desctop_function .can .can-card .can-textbox .can-title {
+      .desctop_function .can .can-card .can-textbox .can-title, .desctop_function .mobil-can .can-card .can-textbox .can-title {
         font-size: 18px;
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
         color: #0e2042;
         margin-bottom: 0;
         margin-left: 17px; }
-      .desctop_function .can .can-card .can-textbox .can-suptitle {
+      .desctop_function .can .can-card .can-textbox .can-suptitle, .desctop_function .mobil-can .can-card .can-textbox .can-suptitle {
         font-size: 14px;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
@@ -737,14 +743,14 @@ body {
         margin-bottom: 0;
         margin-left: 17px;
         margin-top: 25px; }
-    .desctop_function .can .can-card_form .form {
+    .desctop_function .can .can-card_form .form, .desctop_function .mobil-can .can-card_form .form {
       margin-left: 90px; }
-    .desctop_function .can .can-card_form .form_title {
+    .desctop_function .can .can-card_form .form_title, .desctop_function .mobil-can .can-card_form .form_title {
       font-size: 18px;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       color: #0e2042; }
-    .desctop_function .can .can-card_form .fl-box .input {
+    .desctop_function .can .can-card_form .fl-box .input, .desctop_function .mobil-can .can-card_form .fl-box .input {
       width: 272px;
       height: 48px;
       border-radius: 6px;
@@ -754,32 +760,32 @@ body {
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       font-size: 14px; }
-    .desctop_function .can .can-card_form .fl-box input.input::-webkit-input-placeholder {
+    .desctop_function .can .can-card_form .fl-box input.input::-webkit-input-placeholder, .desctop_function .mobil-can .can-card_form .fl-box input.input::-webkit-input-placeholder {
       color: #586a8c;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       font-size: 14px; }
-    .desctop_function .can .can-card_form .fl-box input.input:-ms-input-placeholder {
+    .desctop_function .can .can-card_form .fl-box input.input:-ms-input-placeholder, .desctop_function .mobil-can .can-card_form .fl-box input.input:-ms-input-placeholder {
       color: #586a8c;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       font-size: 14px; }
-    .desctop_function .can .can-card_form .fl-box input.input::-ms-input-placeholder {
+    .desctop_function .can .can-card_form .fl-box input.input::-ms-input-placeholder, .desctop_function .mobil-can .can-card_form .fl-box input.input::-ms-input-placeholder {
       color: #586a8c;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       font-size: 14px; }
-    .desctop_function .can .can-card_form .fl-box input.input::placeholder {
+    .desctop_function .can .can-card_form .fl-box input.input::placeholder, .desctop_function .mobil-can .can-card_form .fl-box input.input::placeholder {
       color: #586a8c;
       font-family: "Montserrat", sans-serif;
       font-weight: 600;
       font-size: 14px; }
-    .desctop_function .can .can-card_form .fl-box .input:focus {
+    .desctop_function .can .can-card_form .fl-box .input:focus, .desctop_function .mobil-can .can-card_form .fl-box .input:focus {
       outline: none; }
-    .desctop_function .can .can-card_form .fl-box .promocod {
+    .desctop_function .can .can-card_form .fl-box .promocod, .desctop_function .mobil-can .can-card_form .fl-box .promocod {
       margin-bottom: 0;
       margin-top: 14px; }
-    .desctop_function .can .can-card_form .fl-box .form_subtitle {
+    .desctop_function .can .can-card_form .fl-box .form_subtitle, .desctop_function .mobil-can .can-card_form .fl-box .form_subtitle {
       display: inline-block;
       font-size: 11px;
       font-family: "Montserrat", sans-serif;
@@ -787,7 +793,7 @@ body {
       color: #586a8c;
       line-height: 1;
       margin-top: 10px; }
-    .desctop_function .can .can-card_form .fl-box .form_button {
+    .desctop_function .can .can-card_form .fl-box .form_button, .desctop_function .mobil-can .can-card_form .fl-box .form_button {
       border: none;
       border-radius: 6px;
       width: 272px;
@@ -799,9 +805,9 @@ body {
       background-color: #8860fb;
       color: #fff;
       margin-top: 13px; }
-    .desctop_function .can .can-card_form .fl-box .form_button:focus {
+    .desctop_function .can .can-card_form .fl-box .form_button:focus, .desctop_function .mobil-can .can-card_form .fl-box .form_button:focus {
       outline: none; }
-    .desctop_function .can .can-card_form .fl-box .cod {
+    .desctop_function .can .can-card_form .fl-box .cod, .desctop_function .mobil-can .can-card_form .fl-box .cod {
       font-family: "Montserrat", sans-serif;
       font-size: 12px;
       font-weight: 400;
@@ -841,6 +847,8 @@ body {
         font-weight: 600; }
       .desctop_know .header-desc .nav .navpoint a:hover {
         text-decoration: none; }
+    .desctop_know .header-desc .mobil-btn {
+      display: none; }
     .desctop_know .header-desc .checks-wrap .checks {
       margin-bottom: 0;
       font-family: "Montserrat", sans-serif;
@@ -935,7 +943,7 @@ body {
       .desctop_know .header-desc .profile .exit:focus {
         outline: none; }
   .desctop_know .know {
-    margin-top: 145px; }
+    margin-top: 90px; }
     .desctop_know .know .know_head {
       text-align: center;
       font-family: "Montserrat", sans-serif;
@@ -1101,6 +1109,8 @@ body {
         font-weight: 600; }
       .desctop_rate .header-desc .nav .navpoint a:hover {
         text-decoration: none; }
+    .desctop_rate .header-desc .mobil-btn {
+      display: none; }
     .desctop_rate .header-desc .checks-wrap .checks {
       margin-bottom: 0;
       font-family: "Montserrat", sans-serif;
@@ -1195,7 +1205,7 @@ body {
       .desctop_rate .header-desc .profile .exit:focus {
         outline: none; }
   .desctop_rate .rate {
-    margin-top: 145px; }
+    margin-top: 90px; }
     .desctop_rate .rate .rate_head {
       text-align: center;
       font-family: "Montserrat", sans-serif;
@@ -1298,6 +1308,101 @@ body {
     .desctop_rate .rate .rate-link:focus {
       -webkit-box-shadow: 0px 8px 18px 0px rgba(39, 34, 45, 0.14);
               box-shadow: 0px 8px 18px 0px rgba(39, 34, 45, 0.14); }
+    .desctop_rate .rate .pay-title {
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #3e5671;
+      margin-top: 40px; }
+    .desctop_rate .rate .payment-box {
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 35px;
+      opacity: 0.5; }
+      .desctop_rate .rate .payment-box .pay-icon {
+        height: 30px;
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1; }
+      .desctop_rate .rate .payment-box .master {
+        height: 50px; }
+    .desctop_rate .rate .form-box {
+      -webkit-transform: translateX(30%);
+              transform: translateX(30%);
+      margin-top: 30px; }
+      .desctop_rate .rate .form-box .input {
+        width: 272px;
+        height: 48px;
+        border-radius: 6px;
+        border: 1px solid #bbc9e5;
+        padding-left: 20px;
+        color: #586a8c;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 14px; }
+      .desctop_rate .rate .form-box input.input::-webkit-input-placeholder {
+        color: #586a8c;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 14px; }
+      .desctop_rate .rate .form-box input.input:-ms-input-placeholder {
+        color: #586a8c;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 14px; }
+      .desctop_rate .rate .form-box input.input::-ms-input-placeholder {
+        color: #586a8c;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 14px; }
+      .desctop_rate .rate .form-box input.input::placeholder {
+        color: #586a8c;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 14px; }
+      .desctop_rate .rate .form-box .input:focus {
+        outline: none; }
+      .desctop_rate .rate .form-box .promocod {
+        margin-bottom: 0;
+        margin-top: 14px; }
+      .desctop_rate .rate .form-box .form_subtitle {
+        display: inline-block;
+        font-size: 11px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        color: #586a8c;
+        line-height: 1;
+        margin-top: 10px;
+        margin-left: 13px; }
+      .desctop_rate .rate .form-box .form_button {
+        border: none;
+        border-radius: 6px;
+        width: 174px;
+        height: 44px;
+        background-color: #fff;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        background-color: #9672ff;
+        -webkit-box-shadow: 0px 10px 20px 0px rgba(84, 0, 255, 0.39);
+                box-shadow: 0px 10px 20px 0px rgba(84, 0, 255, 0.39);
+        color: #fff;
+        margin-left: 13px; }
+      .desctop_rate .rate .form-box .form_button:focus {
+        outline: none; }
+      .desctop_rate .rate .form-box .cod {
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: #8860fb;
+        -webkit-text-decoration: underline #bfacfb;
+                text-decoration: underline #bfacfb;
+        margin-right: 140px; }
   .desctop_rate .footer {
     margin-top: 100px; }
     .desctop_rate .footer .footer-title, .desctop_rate .footer .footer_subtitle {
