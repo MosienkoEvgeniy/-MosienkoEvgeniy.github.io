@@ -315,7 +315,37 @@ body
 				font-family: 'Montserrat', sans-serif
 				font-size: 16px
 				font-weight: 400
+				position: relative
+			.form_title:after
+				content: ''
+				position: absolute
+				width: 250px
+				height: 40px
+				top: 42%
+				right: 12%
+				background:  url(../img/main-arrow.png) no-repeat
 			.fl-box
+				.step-box
+					display: flex
+					.step-item
+						display: flex
+						width: 150px
+						align-items: center
+						.step-number
+							font-size: 48px
+							font-family: 'Montserrat', sans-serif
+							font-weight: 900
+							color: #bdcbe6
+							line-height: 1.3
+							margin-bottom: 0
+						.step-head
+							font-size: 12px
+							font-family: 'Montserrat', sans-serif
+							font-weight: 400
+							color: #586a8c
+							line-height: 1.3
+							margin-bottom: 0
+							margin-left: 10px	
 				.input
 					width: 272px
 					height: 48px
@@ -338,25 +368,12 @@ body
 					margin-top: 14px
 				.form_subtitle
 					display: inline-block 
-					font-size: 11px
+					font-size: 12px
 					font-family: 'Montserrat', sans-serif
-					font-weight: 600
+					font-weight: 400
 					color: #586a8c
 					line-height: 1
 					margin-top: 10px
-				.form_button
-					border: none
-					border-radius: 6px
-					width: 174px
-					height: 44px
-					background-color: #fff
-					font-family: 'Montserrat', sans-serif
-					font-weight: 600
-					font-size: 14px
-					background-color: #8860fb	
-					color: #fff
-				.form_button:focus
-					outline: none
 				.cod
 					font-family: 'Montserrat', sans-serif
 					font-size: 12px
@@ -435,7 +452,7 @@ body
 						color: #3b578a
 						background-color: #fff
 						line-height: 1.4
-						z-index: 9999
+						z-index: 1
 					.left_number
 						font-size: 35px
 						font-family: 'Montserrat', sans-serif
@@ -462,7 +479,7 @@ body
 						color: #3b578a
 						background-color: #fff
 						line-height: 1.4
-						z-index: 9999
+						z-index: 1
 						.right_number
 							font-size: 35px
 							font-family: 'Montserrat', sans-serif
