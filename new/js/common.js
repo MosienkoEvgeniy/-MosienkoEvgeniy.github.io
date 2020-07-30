@@ -71,7 +71,11 @@ $(document).ready(function(){
 	});
 
 	$('.cod').on('click', function(){
-		$('.promocod,#cod').toggle();
+		$('.form-promocod,#cod').toggle();
+	});
+
+	$('.rate-cod').on('click', function(){
+		$('.rate-promo,#rate-cod').toggle();
 	});
 
 	$('#load_img').on('click', function(){

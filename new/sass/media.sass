@@ -354,7 +354,7 @@
 					.form_button
 						width: 220px !important
 	.desctop
-		background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -45% right
+		background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom center
 		.header-desc
 			padding-top: 20px
 			.nav
@@ -469,6 +469,26 @@
 
 			.main_head
 				margin-top: 60px
+				font-size: 37px
+				.gradient
+					font-size: 37px
+			.sub_head
+				margin-top: 20px
+			.icon_box
+				margin-top: 30px
+				.fl-box
+					.icon_wrap
+						margin-right: 43px
+			.main_form
+				margin-top: 20px
+				.form_title:after
+					display: none
+				.fl-box
+					.promo-btn
+						width: 272px
+						margin-left: 0
+					.input
+						margin-bottom: 10px
 			.first_step
 				width: 350px
 				height: auto
@@ -479,6 +499,14 @@
 				width: 350px
 				height: auto
 				margin: auto
+				margin-top: 46px
+				display: flex
+				flex-direction: column
+				.up
+					order: 1
+					margin-top: 10px
+				.shadow-wrap
+					box-shadow: none
 			
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px)
@@ -826,7 +854,7 @@
 		.mobil-can
 			display: block !important
 	.desctop
-		background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -33% right
+		background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -4% right
 		.header-desc
 			padding-top: 20px
 			.nav
@@ -935,7 +963,6 @@
 				.exit
 					margin-left: 20px
 		.head
-
 			.main_head
 				margin-top: 60px
 			.main_form
@@ -950,6 +977,24 @@
 				width: 350px
 				height: auto
 				margin: auto
+		.footer
+			padding-bottom: 10px
+			.desk-logo
+				display: none
+			.mobil-logo
+				display: block
+				margin: 30px auto
+				margin-top: 0
+			.footer-title
+				color: #fff
+				text-align: center
+			.footer_subtitle
+				color: #fff
+				text-align: center
+			.center
+				display: flex
+				flex-direction: column
+				align-items: center
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
@@ -1304,8 +1349,23 @@
 			display: none
 		.mobil-can
 			display: block !important
+			margin-bottom: 40px !important
+		.footer
+			padding-bottom: 20px
+			.footer-logo
+				display: block
+				margin: 0 auto
+				margin-bottom: 10px
+			.footer-title
+				text-align: center
+			.footer_subtitle
+				text-align: center
+			.center
+				display: flex
+				flex-direction: column
+				align-items: center
 	.desctop
-		background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -40% right
+		background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -1% right
 		.header-desc
 			padding-top: 20px
 			.nav
@@ -1414,7 +1474,29 @@
 				.exit
 					margin-left: 20px
 		.head
-
+			.mobil-check
+				display: block
+				.checks-wrap
+					.checks
+						display: block
+						margin: auto auto
+						width: 250px
+						height: 60px	
+						background-color: #f7f9fb
+						text-align: center
+						font-size: 16px	
+						font-family: 'Montserrat', sans-serif
+						font-weight: 600	
+						color: #586a8c
+						padding-top: 15px
+						border-radius: 0 0 30px 30px		
+						.number
+							padding: 7px 10px	
+							font-size: 18px	
+							background-color: #b853f4
+							color: #fff	
+							border-radius: 6px
+							margin-left: 15px						
 			.main_head
 				margin-top: 60px
 				font-size: 34px
@@ -1482,18 +1564,41 @@
 				.or-3
 					padding: 0
 		.rate
+			.rate_head
+				font-size: 38px
 			.payment-box
 				flex-wrap: wrap
 			.form-box
 				display: flex
 				flex-direction: column
-				margin: 20 auto
+				transform: translateX(0)
+				justify-content: center
 				.input
 					margin-top: 0
+					margin: 0 auto
+				.cod
+					margin: 0 auto
 				.form_button
-					margin-left: 0
+					margin: 10px auto
 					width: 272px
 					order: 1
+				.form_subtitle
+					margin: 10px auto
+					
+		.footer
+			padding-bottom: 20px
+			.footer-logo
+				display: block
+				margin: 0 auto
+				margin-bottom: 10px
+			.footer-title
+				text-align: center
+			.footer_subtitle
+				text-align: center
+			.center
+				display: flex
+				flex-direction: column
+				align-items: center
 	.desctop_know
 		background: #f7f9fb url("../img/bg_know.png") no-repeat top center
 		.header-desc
@@ -1523,7 +1628,8 @@
 			.know_head
 				font-size: 40px
 			.search
-				justify-content: space-between
+				margin: 0 auto
+				margin-top: 30px
 				width: 300px
 				.search-input
 					width: 300px !important 
@@ -1531,6 +1637,8 @@
 				.item
 					font-size: 9px
 			.know-card
+				margin: 0 auto
+				margin-top: 40px
 				justify-content: space-between
 				width: 310px
 				.know-item
@@ -1540,6 +1648,21 @@
 				.hidden-btn
 					flex-basis: 50%
 					margin: 0 auto
+		.footer
+			padding-bottom: 20px
+			.footer-logo
+				display: block
+				margin: 0 auto
+				margin-bottom: 10px
+			.footer-title
+				color: #586a8c
+				text-align: center
+			.footer_subtitle
+				text-align: center
+			.center
+				display: flex
+				flex-direction: column
+				align-items: center
 	.desctop_function
 		background: #f7f9fb url("../img/bg_f.png") no-repeat bottom -13% right
 		.header-desc
@@ -1574,7 +1697,7 @@
 				.form
 					margin-left: 20px !important
 	.desctop
-		background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -13% right
+		background: #f7f9fb url("../img/bg_body_main.png") no-repeat bottom -1% right
 		.header-desc
 			position: relative
 			.row
@@ -1617,11 +1740,19 @@
 					.fl-1
 						margin-right: 60px
 			.main_form
+				.form_title
+					display: none
 				.fl-box
 					display: flex
 					flex-direction: column
-					.form_button
-						order: 1
+					.step-box
+						display: none
+					.form_subtitle
+						font-size: 14px
+					.promo-btn
+						margin-left: 0
+						margin-top: 10px
+						width: 272px
 					.promocod
 						margin-top: 0
 			.col-12
@@ -1633,7 +1764,23 @@
 				.second_step
 					width: 310px
 					margin: 0 auto
-
+		.footer
+			.desk-logo
+				display: none
+			.mobil-logo
+				display: block
+				margin: 30px auto
+				margin-top: 0
+			.footer-title
+				color: #fff
+				text-align: center
+			.footer_subtitle
+				color: #fff
+				text-align: center
+			.center
+				display: flex
+				flex-direction: column
+				align-items: center
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) 
 

@@ -151,7 +151,7 @@ body {
   width: 100vw;
   background: url("../img/bg_body_main.png") no-repeat center center; }
   .desctop .header-desc {
-    padding-top: 40px; }
+    padding-top: 6px; }
     .desctop .header-desc .nav .navpoint {
       margin-right: 32px;
       font-weight: 400;
@@ -260,6 +260,8 @@ body {
           text-decoration: none; }
       .desctop .header-desc .profile .exit:focus {
         outline: none; }
+  .desctop .head .mobil-check {
+    display: none; }
   .desctop .head .main_head {
     margin-top: 120px;
     text-transform: uppercase;
@@ -388,6 +390,17 @@ body {
     .desctop .head .main_form .fl-box .promocod {
       margin-bottom: 0;
       margin-top: 14px; }
+    .desctop .head .main_form .fl-box .promo-btn {
+      border: none;
+      border-radius: 6px;
+      width: 250px;
+      height: 48px;
+      background-color: #8860fb;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      color: #fff;
+      font-size: 16px;
+      margin-left: 15px; }
     .desctop .head .main_form .fl-box .form_subtitle {
       display: inline-block;
       font-size: 12px;
@@ -556,6 +569,8 @@ body {
           padding-top: 25px; }
   .desctop .footer {
     margin-top: 100px; }
+    .desctop .footer .mobil-logo {
+      display: none; }
     .desctop .footer .footer-title, .desctop .footer .footer_subtitle {
       font-family: "Montserrat", sans-serif;
       font-size: 13px;
